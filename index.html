@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+  </head>
+  <body>
+		<a-scene>
+			<a-assets>
+				<a-asset-item id="tnt-obj" src="./tnt_crate/TNT CRATE.obj"></a-asset-item>
+				<a-asset-item id="tnt-mtl" src="./tnt_crate/TNT_CRATE.mtl"></a-asset-item>
+			</a-assets>
+			<a-entity obj-model="obj: #tnt-obj; mtl: #tnt-mtl"></a-entity>
+			<!-- As the object is really big, we move the camera far from it. -->
+			<a-entity position="311.337 251.03 372.377" camera="active:true;userHeight:1.6" wasd-controls="" rotation="-19.251381916395662 41.71132748552393 10.485127650894064" look-controls="" aframe-injected="" data-aframe-inspector="default-camera"></a-entity>
+		</a-scene>
+  </body>
+</html>
